@@ -61,13 +61,14 @@ import os
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('PGDATABASE', 'railway'),
-        'USER': os.getenv('PGUSER', 'postgres'),
-        'PASSWORD': os.getenv('PGPASSWORD', 'FPxPNOnuykRCFCDTqAKraqlJuIVQlDjw'),
-        'HOST': os.getenv('PGHOST', 'postgres.railway.internal'),
-        'PORT': os.getenv('PGPORT', '5432'),
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'FPxPNOnuykRCFCDTqAKraqlJuIVQlDjw',
+        'HOST': 'shortline.proxy.rlwy.net',
+        'PORT': '37853',
     }
 }
+
 
 
 AUTH_PASSWORD_VALIDATORS = [
