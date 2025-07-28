@@ -89,7 +89,7 @@ kuberns\_backend/
 ### 🔸 Backend Setup
 
 ```bash
-git clone https://github.com/yourusername/kuberns-backend.git
+git clone https://github.com/Amankumaraman/kuberns.git
 cd kuberns-backend
 python -m venv venv
 venv\Scripts\activate
@@ -131,15 +131,6 @@ npm start
    * Deployment log is created
 4. Instance and logs are returned and displayed in UI
 
----
-
-## 📸 Screenshots
-
-| App Creation Form               | Deployment Result               |
-| ------------------------------- | ------------------------------- |
-| ![Step1](screenshots/step1.png) | ![Step2](screenshots/step2.png) |
-
----
 
 ## 🧪 Testing
 
@@ -168,16 +159,6 @@ POST /api/webapps/
 ## 🧑‍💻 Author
 
 * **Aman Kumar**
-* GitHub: [@yourusername](https://github.com/yourusername)
-
----
-
-## 📦 Deployment (Optional)
-
-You can deploy the backend using:
-
-* [Render](https://render.com/)
-* [Railway](https://railway.app/)
-* [AWS EC2 or Lightsail](https://aws.amazon.com)
+* GitHub: [@Amankumaraman](https://github.com/Amankumaraman)
 
 ---
