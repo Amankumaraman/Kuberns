@@ -107,5 +107,6 @@ REST_FRAMEWORK = {
 # CORS
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Your React app's URL
+    "https://kuberns.vercel.app",
 ]
 CORS_ALLOW_CREDENTIALS = True
